@@ -12,12 +12,17 @@
     "importHelpers": true,
     "target": "es2015",
     "module": "es2020",
+    "types" : [
+      "node"
+    ],
     "lib": [
       "es2018",
       "dom"
     ]
   },
   "angularCompilerOptions": {
-    "enableI18nLegacyMessageIdFormat": false
+    "enableI18nLegacyMessageIdFormat": false,
+    "resolveJsonModule": true,
+    "esModuleInterop": true
   }
 }
